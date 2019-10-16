@@ -146,3 +146,17 @@ initializr:
           artifactId: postgresql
           scope: runtime
           starter: false
+    - name: Messaging
+      content:
+        - name: Spring for RabbitMQ
+          id: amqp
+          description: Gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.
+          weight: 100
+          keywords:
+            - messaging
+          links:
+            - rel: guide
+              href: https://spring.io/guides/gs/messaging-rabbitmq/
+              description: Messaging with RabbitMQ
+            - rel: reference
+              href: https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-amqp
