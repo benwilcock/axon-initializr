@@ -160,3 +160,22 @@ initializr:
               description: Messaging with RabbitMQ
             - rel: reference
               href: https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-amqp
+    - name: Developer Tools
+      content:
+        - name: Spring Boot DevTools
+          id: devtools
+          groupId: org.springframework.boot
+          artifactId: spring-boot-devtools
+          scope: runtime
+          description: Provides fast application restarts, LiveReload, and configurations for enhanced development experience.
+          starter: false
+          links:
+            - rel: reference
+              href: https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#using-boot-devtools
+        - name: Lombok
+          id: lombok
+          groupId: org.projectlombok
+          artifactId: lombok
+          scope: annotationProcessor
+          description: Java annotation library which helps to reduce boilerplate code.
+          starter: false
