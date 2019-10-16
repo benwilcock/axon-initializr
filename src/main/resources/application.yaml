@@ -2,7 +2,7 @@ initializr:
   name:
     value: axon
   description:
-    value: 'A CQRS Event Sourcing Sample Application'
+    value: 'An Axon Framework Sample Application'
   group-id:
     value: com.benwilcock
   artifact-id:
@@ -32,14 +32,14 @@ initializr:
         format: project
       default: true
       action: /starter.zip
-    # - name: Gradle Project
-    #   id: gradle-project
-    #   description: Generate a Gradle based project archive
-    #   tags:
-    #     build: gradle
-    #     format: project
-    #   default: false
-    #   action: /starter.zip
+    - name: Maven POM
+      id: maven-build
+      description: Generate a Maven pom.xml
+      tags:
+        build: maven
+        format: build
+      default: false
+      action: /pom.xml
   dependencies:
     - name: Web
       content:
@@ -179,3 +179,14 @@ initializr:
           scope: annotationProcessor
           description: Java annotation library which helps to reduce boilerplate code.
           starter: false
+    - name: NoSQL
+      content:
+        - name: Spring Data MongoDB
+          id: data-mongodb
+          description: Store data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time.
+          links:
+            - rel: guide
+              href: https://spring.io/guides/gs/accessing-data-mongodb/
+              description: Accessing Data with MongoDB
+            - rel: reference
+              href: https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-mongodb
