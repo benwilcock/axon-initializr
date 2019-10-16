@@ -190,3 +190,39 @@ initializr:
               description: Accessing Data with MongoDB
             - rel: reference
               href: https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-mongodb
+    - name: Axon Tools
+      content:
+        - name: Axon Framework
+          id: axon-starter
+          weight: 100
+          groupId: org.axonframework
+          artifactId: axon-spring-boot-starter
+          version: 4.2
+          description: Provides Axon Framework - first class support for CQRS and Event Sourcing in SpringBoot. Including Commands, Queries, Aggregates, Events, Event Handlers, etc.
+          keywords:
+            - axon
+            - cqrs
+            - command
+            - query
+          links:
+            - rel: github
+              href: https://github.com/AxonFramework
+            - rel: guide
+              href: https://docs.axoniq.io/reference-guide/
+        - name: Axon Test
+          description: Axon Framework unit testing support.
+          id: axon-test
+          groupId: org.axonframework
+          artifactId: axon-test
+          version: 4.2
+          scope: test
+          starter: false
+          keywords:
+            - test
+            - axon
+        - name: Axon AMQP
+          description: Axon Spring Boot Starter for AMQP. For sending events via AMQP messaging servers such as RabbitMQ
+          id: axon-amqp-starter
+          groupId: org.axonframework.extensions.amqp
+          artifactId: axon-amqp-spring-boot-starter
+          version: 4.2
