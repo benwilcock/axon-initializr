@@ -209,6 +209,9 @@ initializr:
               href: https://github.com/AxonFramework
             - rel: guide
               href: https://docs.axoniq.io/reference-guide/
+            - rel: guide
+              href: https://www.youtube.com/watch?v=tqn9p8Duy54&list=PL4O1nDpoa5KQkkApGXjKi3rzUW3II5pjm
+              description: A full getting started tutorial for Axon in small simple steps.
         - name: Axon Test
           description: Axon Framework unit testing support.
           id: axon-test
