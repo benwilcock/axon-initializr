@@ -2,7 +2,7 @@
 
 If you watch [Taylor Wicksell of Netflix's SpringOne Platform keynote][keynote] you can’t help but be blown away by the sheer productivity of their engineering team. Last year, over 300 Spring-based apps went into production - an incredible achievement. 
 
-[![Taylor Wicksell of Netflix's SpringOne Platform Keynote](http://img.youtube.com/vi/mln3_o6qlBo/0.jpg)](http://www.youtube.com/watch?v=mln3_o6qlBo)
+[![Taylor Wicksell of Netflix's SpringOne Platform Keynote](http://img.youtube.com/vi/mln3_o6qlBo/maxresdefault.jpg)](http://www.youtube.com/watch?v=mln3_o6qlBo)
 
 ## What Can Your Enterprise Learn From Netflix?
 
