@@ -46,7 +46,6 @@ initializr:
         - name: Spring Web
           id: web
           description: Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.
-          weight: 100
           facets:
             - web
             - json
@@ -78,7 +77,6 @@ initializr:
         - name: Spring Security
           id: security
           description: Highly customizable authentication and access-control framework for Spring applications.
-          weight: 100
           links:
             - rel: guide
               href: https://spring.io/guides/gs/securing-web/
@@ -96,7 +94,6 @@ initializr:
         - name: Thymeleaf
           id: thymeleaf
           description: A modern server-side Java template engine for both web and standalone environments. Allows HTML to be correctly displayed in browsers and as static prototypes.
-          weight: 90
           keywords:
             - template
           links:
@@ -110,7 +107,6 @@ initializr:
         - name: Spring Data JPA
           id: data-jpa
           description: Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
-          weight: 100
           facets:
             - jpa
           aliases:
@@ -151,7 +147,6 @@ initializr:
         - name: Spring for RabbitMQ
           id: amqp
           description: Gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.
-          weight: 100
           keywords:
             - messaging
           links:
@@ -194,24 +189,20 @@ initializr:
       content:
         - name: Axon Framework
           id: axon-starter
-          weight: 100
           groupId: org.axonframework
           artifactId: axon-spring-boot-starter
           version: 4.2
-          description: Provides Axon Framework - first class support for CQRS and Event Sourcing in SpringBoot. Including Commands, Queries, Aggregates, Events, Event Handlers, etc.
-          keywords:
-            - axon
-            - cqrs
-            - command
-            - query
+          description: Brings first class support for CQRS, Event Sourcing, and DDD to SpringBoot including Commands, Queries, Aggregates, Events, Event Handlers, etc.
           links:
-            - rel: github
-              href: https://github.com/AxonFramework
-            - rel: guide
+            - rel: reference
               href: https://docs.axoniq.io/reference-guide/
+              description: The reference guide on how to use Axon
             - rel: guide
               href: https://www.youtube.com/watch?v=tqn9p8Duy54&list=PL4O1nDpoa5KQkkApGXjKi3rzUW3II5pjm
               description: A full getting started tutorial for Axon in small simple steps.
+            - rel: source
+              href: https://github.com/AxonFramework
+              description: The open-source code repository on GitHub
         - name: Axon Test
           description: Axon Framework unit testing support.
           id: axon-test
@@ -220,9 +211,6 @@ initializr:
           version: 4.2
           scope: test
           starter: false
-          keywords:
-            - test
-            - axon
         - name: Axon AMQP
           description: Axon Spring Boot Starter for AMQP. For sending events via AMQP messaging servers such as RabbitMQ
           id: axon-amqp-starter
