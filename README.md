@@ -262,7 +262,7 @@ We start by adding our desired dependencies from our Axon Initializr's curated l
 
 ![Choosing our preferred dependencies in IntelliJ IDEA][img-intellij-dependencies]
 
-And we’re done. After setting a few more items in IntelliJ IDEA (such as the folder to generate the application into) clicking the “Next” button for the final time will create our new Axon application project and take us straight into the IDE. From there we can get to work on our CQRS application, adding Commands, Queries, Events, and Aggregates.
+And we’re done. After setting a few more items in IntelliJ IDEA (such as the folder to generate the application into) clicking the “Next” button for the final time will create our new [Axon][axoniq] application project and take us straight into the IDE. From there we can get to work on our CQRS application, adding Commands, Queries, Events, and Aggregates.
 
 ## Wrapping Up
 
