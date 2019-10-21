@@ -253,7 +253,7 @@ Then, start IntelliJ IDEA and choose `File → New → Project...` and on the ne
 
 When you click “Next,” you can begin to customize your new Axon based application. Our efforts to standardize are already paying off; the default project name, group id, artifact id, package, packaging, language, java version, and description all come from our default settings in the `application.yaml` within the Axon Initializr.
 
-![Chooseing the basic settings in IntelliJ IDEA][img-intellij-project-metadata]
+![Choosing the basic settings in IntelliJ IDEA][img-intellij-project-metadata]
 
 Finally, after clicking “Next” again, we can configure our (still yet to be generated) Axon application project.
 
@@ -290,7 +290,7 @@ I’ve only scratched the surface of what’s possible with [Spring Initializr][
 [img-browser-start]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/browser-start.png
 [img-intellij-dependencies]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/intellij-dependencies.png
 [img-intellij-new-project]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/intellij-new-project.png
-[img-intellij-project-metedata]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/intellij-project-metadata.png
+[img-intellij-project-metadata]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/intellij-project-metadata.png
 [img-jetbrains-graph]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/jetbrains-graph.png
 [img-keynote-intro]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/keynote-intro.png
 [keynote-slide]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/keynote-slide.png
