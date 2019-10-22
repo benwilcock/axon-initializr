@@ -192,7 +192,7 @@ initializr:
           groupId: org.axonframework
           artifactId: axon-spring-boot-starter
           version: 4.2
-          description: Brings first class support for CQRS, Event Sourcing, and DDD to SpringBoot including Commands, Queries, Aggregates, Events, Event Handlers, etc.
+          description: Brings first-class support for CQRS, Event Sourcing, and DDD to SpringBoot including Commands, Queries, Aggregates, Events, Event Handlers, and more...
           links:
             - rel: reference
               href: https://docs.axoniq.io/reference-guide/

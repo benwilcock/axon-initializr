@@ -1,6 +1,6 @@
 # Netflix Built their Own Application Generator to Boost Dev Productivity. Here's How You Can, Too.
 
-If you watch [Taylor Wicksell of Netflix's SpringOne Platform keynote][keynote] you can’t help but be blown away by the sheer productivity of their engineering team. Last year, over 300 Spring-based apps went into production - an incredible achievement. 
+If you watch [Taylor Wicksell of Netflix's SpringOne Platform keynote][keynote] you can’t help but be blown away by the sheer productivity of their engineering team. Last year, over 300 Spring-based apps went into production – an incredible achievement. 
 
 [![Taylor Wicksell of Netflix's SpringOne Platform Keynote](http://img.youtube.com/vi/mln3_o6qlBo/maxresdefault.jpg)](http://www.youtube.com/watch?v=mln3_o6qlBo)
 
@@ -287,11 +287,11 @@ I’ve only scratched the surface of what’s possible with [Spring Initializr][
 [taylor]: https://twitter.com/TaylorWicksell
 [keynote]: https://youtu.be/mln3_o6qlBo
 
-[img-browser-start]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/browser-start.png
-[img-intellij-dependencies]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/intellij-dependencies.png
-[img-intellij-new-project]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/intellij-new-project.png
-[img-intellij-project-metadata]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/intellij-project-metadata.png
-[img-jetbrains-graph]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/jetbrains-graph.png
-[img-keynote-intro]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/keynote-intro.png
-[keynote-slide]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/keynote-slide.png
-[img-terminal]: https://github.com/spring-io/spring-io-static/blob/master/blog/bwilcock/20191001/terminal.png
+[img-browser-start]: https://static.spring.io/blog/bwilcock/20191001/browser-start.png "Using your browser to create a Spring project at start.spring.io"
+[img-intellij-dependencies]: https://static.spring.io/blog/bwilcock/20191001/intellij-dependencies.png "Choosing dependencies in IntelliJ IDEA's new project wizard."
+[img-intellij-new-project]: https://static.spring.io/blog/bwilcock/20191001/intellij-new-project.png "Starting a new project in IntelliJ IDEA's new project wizard."
+[img-intellij-project-metadata]: https://static.spring.io/blog/bwilcock/20191001/intellij-project-metadata.png "Setting the project metadata in IntelliJ IDEA's new project wizard."
+[img-jetbrains-graph]: https://static.spring.io/blog/bwilcock/20191001/jetbrains-graph.png "JetBrain User Survey illustrates that Spring Boot adoption is growing amongst developers."
+[img-keynote-intro]: https://static.spring.io/blog/bwilcock/20191001/keynote-intro.png "Netflix's Taylor Wicksell talking about Spring adoption at Netflix at SpringOne Platform 2019"
+[keynote-slide]: https://static.spring.io/blog/bwilcock/20191001/keynote-slide.png "Application Generators are top of the list for improving productivity and commonality with the team at Netflix"
+[img-terminal]: https://static.spring.io/blog/bwilcock/20191001/terminal.png "Terminal output showing that our application shell started up"
