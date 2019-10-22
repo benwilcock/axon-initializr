@@ -43,7 +43,7 @@ To imitate what you would do inside your enterprise, in this tutorial we’ll na
 Follow these steps, and before you know it you’ll have easier access to custom libraries, greater adoption of preferred patterns, and a vastly improved developer experience!
 
 
-NOTE: The full code from this tutorial can be found [here on GitHub][axon-initializr-repo].
+> NOTE: The full code from this tutorial can be found [here on GitHub][axon-initializr-repo].
 
 
 On to the tutorial!
@@ -200,7 +200,7 @@ initializr:
              description: Building REST services with Spring
 ```
 
-NOTE: You can copy any other Spring related entries you like from [this example YAML][spring-initializr-yaml] file taken from the start.spring.io configuration. 
+> NOTE: You can copy any other Spring related entries you like from [this example YAML][spring-initializr-yaml] file taken from the start.spring.io configuration. 
 
 ### Step Five - Add Your Custom Libraries
 
@@ -232,13 +232,13 @@ initializr:
 
 You might notice that this configuration looks different from the configuration in step 4. That’s because we’re explicitly calling out the maven coordinates of each library (the `groupId`, `artifactId`, and `version`). We do this because the Axon Framework libraries are outside Spring, so we need to be specific.
 
-NOTE: The examples here are just snippets. You can see the complete axon-initializr YAML configuration here in GitHub.
+> NOTE: The examples here are just snippets. You can see the complete axon-initializr YAML configuration here in GitHub.
 
 ## Try The Axon Initializr From Your IDE
 
 Now we’ve added our desired configurations and customizations to the `axon-initializr` project it’s time to use it to generate an Axon application in our IDE.
 
-NOTE: I’ll use [IntelliJ IDEA Ultimate Edition][intellij] as my IDE, but the same smooth developer workflow can also be accomplished easily with Eclipse, [Spring Tools][sts], NetBeans, or Visual Studio Code in much the same way.
+> NOTE: I’ll use [IntelliJ IDEA Ultimate Edition][intellij] as my IDE, but the same smooth developer workflow can also be accomplished easily with Eclipse, [Spring Tools][sts], NetBeans, or Visual Studio Code in much the same way.
 
 
 First, start the `axon-initializr` service in your terminal:
