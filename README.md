@@ -1,6 +1,6 @@
 # Netflix Built their Own Application Generator to Boost Dev Productivity. Here's How You Can, Too.
 
-If you watch [Taylor Wicksell of Netflix's SpringOne Platform keynote][keynote] you can’t help but be blown away by the sheer productivity of their engineering team. Last year, over 300 Spring-based apps went into production – an incredible achievement. 
+If you watch [Taylor Wicksell of Netflix's SpringOne Platform keynote on YouTube][keynote] you can’t help but be blown away by the sheer productivity of their engineering team. Last year, over 300 Spring-based apps went into production – an incredible achievement. 
 
 [![Taylor Wicksell of Netflix's SpringOne Platform Keynote](http://img.youtube.com/vi/mln3_o6qlBo/maxresdefault.jpg)](http://www.youtube.com/watch?v=mln3_o6qlBo)
 
